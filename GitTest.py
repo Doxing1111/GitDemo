@@ -13,3 +13,5 @@ turtle.mainloop()
 
 def m1()
     pass
+
+測試
