@@ -11,7 +11,4 @@ my_turtle.right(90)
 my_turtle.forward(100)
 turtle.mainloop()
 
-def m1()
-    pass
 
-測試 2002
