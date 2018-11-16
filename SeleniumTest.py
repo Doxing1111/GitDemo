@@ -4,10 +4,13 @@
 #driver.maximize_window()
 
 from selenium import webdriver
+#from selenium.webdriver.common.keys import Keys
+from selenium.webdriver.common.action_chains import ActionChains
 import time
 driver=webdriver.Chrome()
-driver.get('http://web.api-bc-1.com/web/dist/#/index')
+driver.get('http://wap.api-bc-1.com/wap/dist/#/AppIndex')
 driver.maximize_window()
+driver.send_keys(Keys.F12)
 time.sleep(5)
 driver.find_element_by_name('id').send_keys('joeuse1010')
 driver.find_element_by_name("password").send_keys('a123456')
